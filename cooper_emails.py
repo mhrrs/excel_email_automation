@@ -36,21 +36,19 @@ def parseExcelSheet(sheet):
             print(cell.value)
 
 
-
-
 def sendEmail():
     # email address and password of the sender
-    email_address = 'harrismhunter@gmail.com'
-    email_password = 'ttucpiqootvrtwsi'
+    email_address = 'example@gmail.com'
+    email_password = 'google-idAppCode-goes-here'
 
     # email address of the recipient
-    to_email_address = 'cooper.monistere@gmail.com'
+    to_email_address = 'recipient@gmail.com'
 
     FROM = email_address
     TO = to_email_address
 
     subject = "Subject Test"
-    body = "I fucked up the first test. Here we go. Body test. Please standby."
+    body = "I messed up the first test. Here we go. Body test. Please standby."
     msg = f"Subject: {subject} \n\n{body}"
 
     # create SMTP session
